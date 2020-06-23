@@ -1,6 +1,7 @@
 import { Token, ChainId } from '@uniswap/sdk'
 
 export default [
+  new Token(ChainId.MAINNET, '0xd559f20296ff4895da39b5bd9add54b442596a61', 18, 'FTX', 'FintruX Network'),
   new Token(ChainId.MAINNET, '0xB6eD7644C69416d67B522e20bC294A9a9B405B31', 8, '0xBTC', '0xBitcoin Token'),
   new Token(ChainId.MAINNET, '0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d', 18, 'aDAI', 'Aave Interest bearing DAI'),
   new Token(ChainId.MAINNET, '0x737F98AC8cA59f2C68aD658E3C3d8C8963E40a4c', 18, 'AMN', 'Amon'),
